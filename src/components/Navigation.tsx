@@ -17,7 +17,7 @@ export function Navigation() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-[0px] px-[32px]">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <h1 className="text-lg font-medium">Dwi Septa | Portfolio</h1>
+            <h1 className="text-lg font-medium">Dwi Septa Rizqullah | Portfolio</h1>
           </div>
           
           {/* Desktop Navigation */}

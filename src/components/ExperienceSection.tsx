@@ -2,19 +2,63 @@ export function ExperienceSection() {
   const experiences = [
     {
       role: "UI/UX Designer",
-      company: "Softwareseni Indonesia",
+      // company: "",
+      company: (
+        <a 
+          href="https://www.softwareseni.co.id/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="url-link"
+        >
+          Softwareseni Indonesia | Indonesia
+        </a>
+      ),
       period: "2020 - Present",
       description: "Worked on website design for both desktop and mobile platforms, delivering projects for clients across multiple countries including Australia, the United States, and the UK. Responsible for implementing client feedback, redesigning outdated websites, and refining user interfaces to improve functionality and user experience."
     },
     {
+      role: "Website Designer & Developer",
+      company: (
+        <a 
+          href="https://www.funraisin.co" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="url-link"
+        >
+          Funraisin | Australia
+        </a>
+      ),
+      period: "2020 - Present",
+      description:
+        "Worked on website design for both desktop and mobile platforms, delivering projects for clients across multiple countries including Australia, the United States, and the UK. Responsible for implementing client feedback, redesigning outdated websites, and refining user interfaces to improve functionality and user experience."
+    },
+    {
       role: "Creative Designer",
-      company: "Digital Distribusi Indonesia",
+      company: (
+        <a 
+          href="https://www.digitaldistribusi.com/en" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="url-link"
+        >
+          Digital Distribusi Indonesia | Indonesia
+        </a>
+      ),
       period: "2020 - 2022",
       description: "Designed social media banners and visual assets tailored to each client’s products, while also developing marketplace visuals to strengthen product presentation and brand identity. Collaborated closely with clients to deliver designs that met both creative and commercial goals."
     },
     {
       role: "Creative Designer",
-      company: "Sale Stock Indonesia",
+      company: (
+        <a 
+          href="https://www.instagram.com/salestockindonesia/?hl=en" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="url-link"
+        >
+          Sale Stock Indonesia | Indonesia
+        </a>
+      ),
       period: "2015 - 2020",
       description: "Responsible for creating and managing all marketing design materials, including social media content, TV advertisements, marketplace banners, and promotional posters. Ensured brand consistency across various platforms to effectively engage target audiences."
     }

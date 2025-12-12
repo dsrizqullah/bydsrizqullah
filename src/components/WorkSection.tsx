@@ -15,6 +15,10 @@ import { Card } from './ui/card';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from './ui/dialog';
 import { Badge } from './ui/badge';
 import { X } from 'lucide-react';
+import jsImage from "@/assets/js_image.png";
+import htmlImage from "@/assets/html_image.png";
+
+
 
 interface Project {
   title: string;
@@ -212,6 +216,28 @@ export function WorkSection() {
                 />
               </div>
               <h3 className="text-lg">After Effects</h3>
+            </div>
+
+            <div className="text-center group">
+              <div className="aspect-square bg-muted rounded-lg overflow-hidden mb-4 p-6 transition-transform duration-300 group-hover:scale-105">
+                <ImageWithFallback
+                  src={htmlImage}
+                  alt="After Effects"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <h3 className="text-lg">HTML</h3>
+            </div>
+
+            <div className="text-center group">
+              <div className="aspect-square bg-muted rounded-lg overflow-hidden mb-4 p-6 transition-transform duration-300 group-hover:scale-105">
+                <ImageWithFallback
+                  src={jsImage}
+                  alt="After Effects"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <h3 className="text-lg">Java Script</h3>
             </div>
           </div>
         </div>

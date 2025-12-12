@@ -8,8 +8,9 @@ export function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl">
-              Creative &<br />
-              UI/UX Designer
+              Creative, <br />
+              UI/UX Designer <br/>
+              & Developer
             </h1>
             <p className="text-lg text-muted-foreground max-w-md">
               I am a Designer with over 10 years of experience in the tech industry, including the last 5 years as a UI/UX Designer at Softwareseni Indonesia. Previously, I worked as a Creative Designer in several companies, building strong expertise in visual communication and brand design.

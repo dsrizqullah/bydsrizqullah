@@ -30,7 +30,7 @@ export function ExperienceSection() {
       ),
       period: "2020 - Present",
       description:
-        "Worked on website design for both desktop and mobile platforms, delivering projects for clients across multiple countries including Australia, the United States, and the UK. Responsible for implementing client feedback, redesigning outdated websites, and refining user interfaces to improve functionality and user experience."
+        "I create website designs for various clients and build websites based on those designs using CMS platforms as well as custom CSS and JavaScript. I also ensure that every website is fully responsive across different screen sizes, including mobile and tablet."
     },
     {
       role: "Creative Designer",
